@@ -1,0 +1,55 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: 120px;
+  margin-bottom: .5rem;
+  margin-right: .5rem;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: var(--palette-shadow-1);
+  border-radius: .25rem;
+  background-color: var(--palette-background-paper);
+  overflow: hidden;
+  user-select: none;
+}
+
+.presentation {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .015em;
+  height: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 5px;
+}
+
+.name {
+  font-size: .875rem;
+  flex: 1 1 auto;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.price {
+  font-size: .6875em;
+  font-weight: bold;
+  white-space: nowrap;
+  color: var(--palette-text-secondary);
+}

@@ -1,0 +1,25 @@
+.head {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--palette-background-default);
+  z-index: 1;
+}
+
+.primary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.secondary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.body {
+  margin-top: 40px;
+  padding: 0;
+}
